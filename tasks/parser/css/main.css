@@ -1,0 +1,43 @@
+h4 {
+	color: ;
+	}
+	
+body {
+		font-family: Arial;
+		background-color: 
+	}
+
+
+
+.generator {
+			box-shadow: 5px 3px 21px -4px #000000;
+		}
+
+.bgimg-2 {
+			background-image: url("");
+			min-height: 170px;
+			background-color: #f2f2f2;
+		}
+
+.caption {
+			position: absolute;
+			left: 0;
+			top: 40%;
+			width: 100%;
+			text-align: center;
+			color: #000;
+		}
+
+.caption span.border {
+			background-color: #111;
+			color: #fff;
+			padding: 18px;
+			font-size: 35px;
+			letter-spacing: 6px;
+		} 
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+		}
+	}

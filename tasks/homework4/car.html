@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Машинка</title>
+		<style>
+   body {
+    background-image: url(img/.png); /* Путь к фоновому изображению */
+   }
+			#content{
+				padding-top: 5%;
+				width:100%;
+				height:90px;	
+				position:relative;
+				border-bottom:45px solid gray;
+				margin:0 auto;
+			}
+			#getCar{float:right; border: 1px solid blue; padding:15px;}
+			#sedan{position: absolute; width:400px}
+			.mirror{
+				transform: scale(-1, 1); /*отражаем машинку по горизонтали*/
+			}
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<img id="sedan" src="img/sedan.png">
+			<p id="getCar">Вызвать машину</p>
+		</div>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
