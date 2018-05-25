@@ -148,8 +148,9 @@
 			</tr>
 		</tbody>
 	</table>	<br><br><br>
-	<div class="alert alert-primary" role="alert">
-Скачать исходные файлы работ можно по ссылке: <a href="https://github.com/sidiqi/portfolio">https://github.com/sidiqi/portfolio</a>
+
+<div class="alert alert-primary" role="alert">
+  Скачать исходные файлы работ можно по ссылке: <a href="#" class="alert-link">https://github.com/sidiqi/portfolio</a>
 </div>
 
 <!--/Section 1-->
