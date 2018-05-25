@@ -147,9 +147,14 @@
 				<td>Основы БД: Выбрать тему, создать БД и заполнить данными (не менее 10 записей и 3 категорий)</td>
 			</tr>
 		</tbody>
-	</table>	
+	</table>	<br><br><br>
+	<div class="alert alert-primary" role="alert">
+Скачать исходные файлы работ можно по ссылке: <a href="https://github.com/sidiqi/portfolio">https://github.com/sidiqi/portfolio</a>
+</div>
+
 <!--/Section 1-->
 </div>
+
 </div>
 <!--footer-->
 <link rel="stylesheet" type="text/css" href="css/social.css"/>
