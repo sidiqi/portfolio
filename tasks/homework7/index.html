@@ -1,79 +1,78 @@
 <html>
 <head>
-<style type="text/css">
-body{
-padding:10%;font-family:sans-serif
-}
-button{
-padding:1em;
-border:0;margin:.25em;
-color:#fff;
-cursor:pointer
-}
-.f-red{
-background:#ff4136
-}
-.f-red:hover{
-background:#e90d00
-}
-.f-green{
-background:#2ecc40
-}
-.f-green:hover{
-background:#208e2c
-}
-.f-blue{
-background:#0074d9
-}
-.f-blue:hover{
-background:#004b8c
-}
-.f-all{
-background:#333
-}
-.f-all:hover{
-background:#0d0d0d
-}
-.red,.green,.blue{
-color:#fff;
-padding:1em;
-margin-bottom:.25em}
-.red{
-background:#ff4136
-}
-.green{
-background:#2ecc40
-}
-.blue{
-background:#0074d9
-}
-</style>
+	<title>Фильтрация элементов с помощью jQuery</title>
+	<meta charset=UTF-8 />
+	<style type="text/css">
+		body{
+		padding:5%;font-family:sans-serif
+		}
+
+		button{
+		padding:1em;
+		}
+
+		.red,.green,.blue{
+		color:#fff;
+		padding:1em;
+		margin-bottom:.25em
+		}
+
+		.red{
+		background:#ff4136
+		}
+
+		.green{
+		background:#2ecc40
+		}
+
+		.blue{
+		background:#0074d9
+	}
+	</style>
 </head>
-<meta charset=UTF-8 />
-<head>
-<title>Фильтрация элементов с помощью jQuery</title>
-</head>
+
 <body>
-<h2>Фильтрация элементов с помощью jQuery</h2>
-<p>
-<button class=f-red>Фильтр красных элементов</button>
-<button class=f-blue>Фильтр синих элементов</button>
-<button class=f-green>Фильтр зеленых элементов</button>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<button class=f-all>Все элементы</button>
-</p>
-<div class=red>Первый</div>
-<div class=red>Второй</div>
-<div class=blue>Третий</div>
-<div class=green>Четвертый</div>
-<div class=red>Пятый</div>
-<div class=blue>Шестой</div>
-<div class=blue>Седьмой</div>
-<div class=green>Восьмой</div>
+		<h2>Фильтрация элементов с помощью jQuery</h2>
+	<p>
+		<button class=f-red>Показать красные</button>
+		<button class=f-blue>Показать синие</button>
+		<button class=f-green>Показать зеленые</button>
+		<button class=f-all>Показать все</button>
+	</p>
+
+		<div class=red>Первый</div>
+		<div class=red>Второй</div>
+		<div class=blue>Третий</div>
+		<div class=green>Четвертый</div>
+		<div class=red>Пятый</div>
+		<div class=blue>Шестой</div>
+		<div class=blue>Седьмой</div>
+		<div class=green>Восьмой</div>
 </body>
-<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
-<script type="text/javascript">
-var fActive='';
-function filterColor(color){if(fActive!=color){
-$('div').filter('.'+color).slideDown();$('div').filter(':not(.'+color+')').slideUp();fActive=color;}}$('.f-red').click(function(){filterColor('red');});$('.f-blue').click(function(){filterColor('blue');});$('.f-green').click(function(){filterColor('green');});$('.f-all').click(function(){$('div').slideDown();fActive='all';});</script>
+	<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+	var fActive = '';
+	 
+	function filterColor(color){
+		 if(fActive != color){
+		 $('div').filter('.'+color).slideDown();
+		 $('div').filter(':not(.'+color+')').slideUp();
+		 fActive = color;
+		 }
+		}
+		 
+		$('.f-red').click(function(){ filterColor('red'); });
+		$('.f-blue').click(function(){ filterColor('blue'); });
+		$('.f-green').click(function(){ filterColor('green'); });
+		 
+		$('.f-all').click(function(){
+		 $('div').slideDown();
+		 fActive = 'all';
+		});
+	</script>
+
 </html>
+
+
+
+
