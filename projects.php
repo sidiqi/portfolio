@@ -117,12 +117,8 @@
 				<td><a href="/tasks/homework4/car.html">Анимация автомобиля</a></td>
 			</tr>
 			<tr>
-				<th scope="row">2</th>
-				<td><a href="#">Конфигуратор на JavaScript</a></td>
-			</tr>
-			<tr>
 				<th scope="row">3</th>
-				<td><a href="#">Конфигуратор с использованием библиотеки jQuery</a></td>
+				<td><a href="/tasks/homework7/index.html">Конфигуратор с использованием библиотеки jQuery</a></td>
 			</tr>
 			<tr>
 				<th scope="row">4</th>
