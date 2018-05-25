@@ -15,7 +15,20 @@
               <script>
               new WOW().init();
               </script>
+        <style type="text/css">
+        	
+<style type="text/css">
 
+/*Мобильная версия*/
+@media only screen and (max-width: 700px) {
+
+	#container1 {
+		width: 1400px;
+	}
+
+}
+/*Мобильная версия*/
+        </style>
 
 	</head>
 
@@ -23,7 +36,7 @@
 	<body>
 
 <!--Navbar-->
-<div style="background-color:black" class="">
+<div style="background-color:black" id="mobile">
 	<nav class="navbar navbar-expand-lg">
 		<div class="container wow fadeInDown">
 			<a class="navbar-brand"><h4>Павел Ипатов</h4></a>
@@ -57,11 +70,11 @@
 </style>
 
 <!--Section 1-->
-<div id="my_works" class="img1" style="height:;background-color:white;">
-	<div class="container">
+<div class="" style="height:;background-color:white;">
+	<div class="container" id="container1">
 		<h2 align="center"  style="padding:25px"><b>Мои работы</b></h2><br>
-		<div style="width: 900px; margin: 0 auto">
-			<table style="width: 900px;"  align="center" class="table table-striped"><h3> Проектная работа</h3>
+		<div class="container"; margin: 0 auto">
+			<table  align="center" class="table table-striped"><h3> Проектная работа</h3>
 		<tbody>
 			<tr>
 				<th style="width: 60px" scope="row">1</th>
@@ -70,7 +83,7 @@
 		</tbody>
 	</table>
 			<br><br>
-	<table style="width: 900px;"  align="center" class="table table-striped"><h3> HTML/CSS/BOOTSTRAP</h3>
+	<table  align="center" class="table table-striped"><h3> HTML/CSS/BOOTSTRAP</h3>
 		<tbody>
 			<tr>
 				<th style="width: 60px" scope="row">1</th>
@@ -97,7 +110,7 @@
 	</table>
 	<br>
 	<br>
-	<table style="width: 900px;" align="center" class="table table-striped"><h3>JavaScript</h3>
+	<table align="center" class="table table-striped"><h3>JavaScript</h3>
 		<tbody>
 			<tr>
 				<th style="width: 60px" scope="row">1</th>
@@ -119,7 +132,7 @@
 	</table>
 	<br>
 	<br>
-	<table style="width: 900px;" align="center" class="table table-striped"><h3>PHP</h3>
+	<table align="center" class="table table-striped"><h3>PHP</h3>
 		<tbody>
 			<tr ></tr>
 				<th style="width: 60px" scope="row">1</th>

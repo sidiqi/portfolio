@@ -53,6 +53,9 @@
 		height: 1050px;
 	}
 
+	#works {
+ padding: 3px;
+	}
 
     #border {
         font-size:14px;
@@ -64,7 +67,7 @@
     }
 
     #my_works {
-    	height: 450px !important;
+    	height: 350px !important;
     }
 
     #contacts {
@@ -187,6 +190,7 @@
 	<div class="container">
 		<h2 class="text-center p-5"><b>Мои работы</b></h2>
 <!--Carousel-->
+<div id="works">
 	<div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
@@ -277,7 +281,7 @@
 	    </a>
 	  </div>
 	</div>
-			
+</div>			
 <!--/Carousel-->
 	<div class="wow fadeInUp text-center" style="margin-top: -150px; padding-bottom: 90px">
 			<button onclick="location.href = 'projects.php'" id="show_works" type="button" class="btn btn-dark br2 "><h6>Посмотреть все работы</h6></button>
