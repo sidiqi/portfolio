@@ -12,11 +12,10 @@
 		<title>Заказы</title>
 	</head>
 
-
 	<body>
 
 <!--Navbar-->
-<div style="background-color:black" class="">
+<div style="background-color:black">
 	<nav class="navbar navbar-expand-lg">
 		<div class="container">
 			<a class="navbar-brand"><h4>Павел Ипатов</h4></a>
@@ -24,13 +23,11 @@
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item active">
 								<a class="nav-link" href="index.php"><h4>Главная</h4></a>
-							</li>
-							
+							</li>					
 						</ul>
 				</div>
 		</div>
 	</nav>
-	
 <!--/Navbar-->
 
 
@@ -46,16 +43,10 @@ while (!feof($f) ) {
       echo fgets($f).'<br>';
      }
 ?>
-
   		</div>
 	</div>
-
-
 <!--/Section 1-->
 
-<style type="text/css">
-	
-</style>
 
 <!--footer-->
 <link rel="stylesheet" type="text/css" href="css/social.css" />
@@ -81,11 +72,7 @@ while (!feof($f) ) {
 	</div>
 </footer>
 
-
-
 <!--/footer-->
-
-
 	 <!-- Optional JavaScript -->
 	 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
