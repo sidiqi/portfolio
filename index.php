@@ -11,8 +11,6 @@
 		<link rel="stylesheet" type="text/css" href="css/social.css"/>
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<link rel="stylesheet" href="css/animate.css"/>
-
-
 		<style type="text/css">
 		.br2 {
 	    border-radius: 0px !important;
@@ -41,9 +39,6 @@
               <script>
               new WOW().init();
               </script>
-
-
-
 	</head >
 
 
@@ -53,6 +48,12 @@
 
 /*Мобильная версия*/
 @media only screen and (max-width: 1024px) {
+
+	#test11 {
+		height: 1050px;
+	}
+
+
     #border {
         font-size:14px;
         letter-spacing: 2px;
@@ -137,8 +138,9 @@
 					</div>
 					<div style="padding-top:10px" class="col-md-8"> 
 						<li>Cоздание web-страницы, содержащие все необходимые компоненты: текстовое наполнение, гиперссылки, графическое наполнение</li>
-						<li>Умение пользоваться библиотекой компонентов <b>Bootstrap 4</b></li>
+						<li>Умение пользоваться библиотекой компонентов Bootstrap 4</li>
 						<li>Стилизовать элементы текста на странице HTML5, используя CSS3 эффективно использовать возможности каскадных таблиц стилей CSS</li>
+						<li>Владение системой контроля версий Git</li>
 					</div>
 			</div>
 			<br>
@@ -181,7 +183,7 @@
 
 <!--Section 3-->
 
-<div id="my_works" class="img1" style="height:100%">
+<div id="my_works" class="img1" style="height:1000px">
 	<div class="container">
 		<h2 class="text-center p-5"><b>Мои работы</b></h2>
 <!--Carousel-->

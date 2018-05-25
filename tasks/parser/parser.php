@@ -1,4 +1,4 @@
-<?php $link = mysqli_connect('app-lab.loc', 'root', '', 'products');?>
+<?php $link = mysqli_connect('localhost', 'root', '', 'products');?>
 <!doctype html>
 <html lang="en">
 	<head>
@@ -106,7 +106,7 @@ function up() {
 <!--footer-->
 <footer class="py-4 line2 generator " style="background-color: #0071c5;">
 	<div class="container">
-		<p class="m-0 text-center text-light"><b>app-lab.ru</b> </p>
+		<p class="m-0 text-center text-light"><b>app-lab.ru</b></p>
 	</div>
 </footer>
 <!--/footer-->

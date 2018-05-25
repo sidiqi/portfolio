@@ -3,7 +3,6 @@ require 'lib/phpQuery.php';
 //Подключение БД
 $link = mysqli_connect('app-lab.loc', 'root', '', 'products');
 
-
 $url = '';
 $file = file_get_contents($url);
 
